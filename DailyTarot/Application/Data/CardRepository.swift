@@ -10,7 +10,7 @@ import Alamofire
 
 struct CardRepository {
     let baseURL = URL(string: "https://rws-cards-api.herokuapp.com/api/v1/cards")!
-    var cards : Cards
+    var cards : Cards?
     init() {
         fetchCards()
     }
