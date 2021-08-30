@@ -15,6 +15,8 @@
 		2AC44D2B26DC7D9800EE8ED1 /* DailyTarotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC44D2A26DC7D9800EE8ED1 /* DailyTarotTests.swift */; };
 		2AC44D3626DC7D9800EE8ED1 /* DailyTarotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC44D3526DC7D9800EE8ED1 /* DailyTarotUITests.swift */; };
 		2AC44D5F26DC900200EE8ED1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AC44D5E26DC900200EE8ED1 /* ViewController.xib */; };
+		2AC44D6426DCA14E00EE8ED1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC44D6326DCA14E00EE8ED1 /* Card.swift */; };
+		2AC44D6926DCA15C00EE8ED1 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC44D6826DCA15C00EE8ED1 /* Cards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2AC44D3526DC7D9800EE8ED1 /* DailyTarotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTarotUITests.swift; sourceTree = "<group>"; };
 		2AC44D3726DC7D9800EE8ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AC44D5E26DC900200EE8ED1 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		2AC44D6326DCA14E00EE8ED1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		2AC44D6826DCA15C00EE8ED1 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,8 @@
 		2AC44D5726DC8C4D00EE8ED1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2AC44D6326DCA14E00EE8ED1 /* Card.swift */,
+				2AC44D6826DCA15C00EE8ED1 /* Cards.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -306,9 +312,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC44D6926DCA15C00EE8ED1 /* Cards.swift in Sources */,
 				2AC44D1826DC7D9700EE8ED1 /* ViewController.swift in Sources */,
 				2AC44D1426DC7D9700EE8ED1 /* AppDelegate.swift in Sources */,
 				2AC44D1626DC7D9700EE8ED1 /* SceneDelegate.swift in Sources */,
+				2AC44D6426DCA14E00EE8ED1 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
