@@ -14,6 +14,7 @@
 		2AC44D2026DC7D9700EE8ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC44D1E26DC7D9700EE8ED1 /* LaunchScreen.storyboard */; };
 		2AC44D2B26DC7D9800EE8ED1 /* DailyTarotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC44D2A26DC7D9800EE8ED1 /* DailyTarotTests.swift */; };
 		2AC44D3626DC7D9800EE8ED1 /* DailyTarotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC44D3526DC7D9800EE8ED1 /* DailyTarotUITests.swift */; };
+		2AC44D5F26DC900200EE8ED1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AC44D5E26DC900200EE8ED1 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2AC44D3126DC7D9800EE8ED1 /* DailyTarotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyTarotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC44D3526DC7D9800EE8ED1 /* DailyTarotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTarotUITests.swift; sourceTree = "<group>"; };
 		2AC44D3726DC7D9800EE8ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC44D5E26DC900200EE8ED1 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			children = (
 				2AC44D1E26DC7D9700EE8ED1 /* LaunchScreen.storyboard */,
 				2AC44D1726DC7D9700EE8ED1 /* ViewController.swift */,
+				2AC44D5E26DC900200EE8ED1 /* ViewController.xib */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AC44D2026DC7D9700EE8ED1 /* LaunchScreen.storyboard in Resources */,
+				2AC44D5F26DC900200EE8ED1 /* ViewController.xib in Resources */,
 				2AC44D1D26DC7D9700EE8ED1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
