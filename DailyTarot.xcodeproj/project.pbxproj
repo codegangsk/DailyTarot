@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		2AC44D5F26DC900200EE8ED1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AC44D5E26DC900200EE8ED1 /* ViewController.xib */; };
 		2AC44D6426DCA14E00EE8ED1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC44D6326DCA14E00EE8ED1 /* Card.swift */; };
 		2AC44D6926DCA15C00EE8ED1 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC44D6826DCA15C00EE8ED1 /* Cards.swift */; };
+		2AC44D6F26DCD9DB00EE8ED1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2AC44D6E26DCD9DB00EE8ED1 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC44D6F26DCD9DB00EE8ED1 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +200,9 @@
 			dependencies = (
 			);
 			name = DailyTarot;
+			packageProductDependencies = (
+				2AC44D6E26DCD9DB00EE8ED1 /* Alamofire */,
+			);
 			productName = DailyTarot;
 			productReference = 2AC44D1026DC7D9700EE8ED1 /* DailyTarot.app */;
 			productType = "com.apple.product-type.application";
@@ -269,6 +274,9 @@
 				Base,
 			);
 			mainGroup = 2AC44D0726DC7D9600EE8ED1;
+			packageReferences = (
+				2AC44D6D26DCD9DB00EE8ED1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 2AC44D1126DC7D9700EE8ED1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -641,6 +649,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2AC44D6D26DCD9DB00EE8ED1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2AC44D6E26DCD9DB00EE8ED1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2AC44D6D26DCD9DB00EE8ED1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2AC44D0826DC7D9600EE8ED1 /* Project object */;
 }
