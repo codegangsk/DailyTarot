@@ -78,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				2AC44D1226DC7D9700EE8ED1 /* DailyTarot */,
+				2AC44D5926DC8C7100EE8ED1 /* Networking */,
+				2AC44D5A26DC8C8300EE8ED1 /* Assets */,
 				2AC44D2926DC7D9800EE8ED1 /* DailyTarotTests */,
 				2AC44D3426DC7D9800EE8ED1 /* DailyTarotUITests */,
 				2AC44D1126DC7D9700EE8ED1 /* Products */,
@@ -97,12 +99,8 @@
 		2AC44D1226DC7D9700EE8ED1 /* DailyTarot */ = {
 			isa = PBXGroup;
 			children = (
-				2AC44D1326DC7D9700EE8ED1 /* AppDelegate.swift */,
-				2AC44D1526DC7D9700EE8ED1 /* SceneDelegate.swift */,
-				2AC44D1726DC7D9700EE8ED1 /* ViewController.swift */,
-				2AC44D1C26DC7D9700EE8ED1 /* Assets.xcassets */,
-				2AC44D1E26DC7D9700EE8ED1 /* LaunchScreen.storyboard */,
 				2AC44D2126DC7D9700EE8ED1 /* Info.plist */,
+				2AC44D4F26DC8C1900EE8ED1 /* Application */,
 			);
 			path = DailyTarot;
 			sourceTree = "<group>";
@@ -123,6 +121,56 @@
 				2AC44D3726DC7D9800EE8ED1 /* Info.plist */,
 			);
 			path = DailyTarotUITests;
+			sourceTree = "<group>";
+		};
+		2AC44D4F26DC8C1900EE8ED1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2AC44D1326DC7D9700EE8ED1 /* AppDelegate.swift */,
+				2AC44D1526DC7D9700EE8ED1 /* SceneDelegate.swift */,
+				2AC44D5026DC8C2B00EE8ED1 /* Presentation */,
+				2AC44D5726DC8C4D00EE8ED1 /* Models */,
+				2AC44D5826DC8C5D00EE8ED1 /* Data */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2AC44D5026DC8C2B00EE8ED1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2AC44D1E26DC7D9700EE8ED1 /* LaunchScreen.storyboard */,
+				2AC44D1726DC7D9700EE8ED1 /* ViewController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		2AC44D5726DC8C4D00EE8ED1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2AC44D5826DC8C5D00EE8ED1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2AC44D5926DC8C7100EE8ED1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2AC44D5A26DC8C8300EE8ED1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2AC44D1C26DC7D9700EE8ED1 /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
